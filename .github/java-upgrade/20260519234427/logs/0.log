@@ -1,0 +1,24 @@
+2026-05-19T23:44:27.794Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-05-19T23:44:27.795Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Java",
+    "C:\\Program Files\\AdoptOpenJDK",
+    "C:\\jdk"
+  ],
+  "projectPath": "c:\\Users\\kevin\\Desktop\\Proyecto_Integrador_Cloud_"
+}}).
+2026-05-19T23:44:27.796Z [INFO] [Tool.invoke] do invoke.
+2026-05-19T23:44:27.887Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25\n   📁 Path: C:\\Program Files\\Java\\jdk-25\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-05-19T23:44:27.888Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-05-19T23:44:28.009Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-05-19T23:44:28.009Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "includeVersion": true,
+  "projectPath": "c:\\Users\\kevin\\Desktop\\Proyecto_Integrador_Cloud_"
+}}).
+2026-05-19T23:44:28.010Z [INFO] [Tool.invoke] do invoke.
+2026-05-19T23:44:29.133Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.9.11\n   📁 Path: C:\\Users\\kevin\\Downloads\\apache-maven-3.9.11\\bin\n   🏷️ Source: MAVEN_HOME,PATH\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-05-19T23:44:29.134Z [INFO] ----------------------invoked appmod-list-mavens----------------------
